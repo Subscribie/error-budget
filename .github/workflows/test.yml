@@ -1,0 +1,13 @@
+name: Printing
+
+on:
+  push:
+    pull_request:
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a message
+        run: echo "Is ready"
+
