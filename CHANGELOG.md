@@ -1,3 +1,20 @@
+# v0.0.2 (Mon Apr 03 2023)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, null[@joeltejeda](https://github.com/joeltejeda), for all your work!
+
+#### 🐛 Bug Fix
+
+- testing workflow [#1](https://github.com/Subscribie/error-budget/pull/1) ([@joeltejeda](https://github.com/joeltejeda))
+- adding error-rate.sh [#1](https://github.com/Subscribie/error-budget/pull/1) ([@joeltejeda](https://github.com/joeltejeda))
+
+#### Authors: 1
+
+- [@joeltejeda](https://github.com/joeltejeda)
+
+---
+
 # v0.0.1 (Mon Apr 03 2023)
 
 :tada: This release contains work from a new contributor! :tada:
