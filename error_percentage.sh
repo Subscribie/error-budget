@@ -1,5 +1,5 @@
 #!/bin/bash
-  
+
 set -x 
 
 # Get all subscribie errors (an error is anything that's not a 200 response
@@ -12,6 +12,6 @@ VALID_EVENTS=$(journalctl --since "24 hours ago" -u subscribie | grep -e 'HTTP/1
 echo The math is "$ERROR_EVENTS" / "$VALID_EVENTS"
 
 
-ERROR_PERCENT=$( echo "scale=2; ($ERROR_EVENTS / $VALID_EVENTS) * 100" | bc)
+ERROR_PERCENT=$( echo "scale=2; $ERROR_EVENTS / $VALID_EVENTS" | bc)
 
-echo ERROR_PERCENT is: $ERROR_PERCENT %
+echo ERROR_PERCENT is: $ERROR_PERCENT
